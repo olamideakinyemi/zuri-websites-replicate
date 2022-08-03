@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    font-family: Averta, sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: #fffafa;
+    background-image: url(../landingpage/utils/hero-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 85vh;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 38px;
+    font-weight: 800;
+    color: #514949;
+}
+
+.hero-desc {
+    color: #514949;
+    font-size: 16px;
+    line-height: 25px;
+    opacity: 0.9;
+    width: 40%;
+    margin: auto;
+}
+
+a {
+    color: #e7332b;
+    text-decoration: none;
+}
+
+.center-logo {
+    padding-top: 69px;
+    margin-bottom: 80px;
+}
+
+.btn-div {
+    margin-top: 92px;
+}
+
+h3 {
+    margin-top: 141px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #e7332b;
+    text-align: center;
+}
+
+
+
+.program-desc {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+
+.program-content img {
+    margin-bottom: 48px;
+}
+
+.dotted{
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    width: 82.5%;
+    margin: auto;
+    margin-top: -75px;
+}
+
+.cards{
+    position: relative;
+}
+
+.left{
+    width: 60%;
+    height: 90%;
+}
+
+.right{
+    width: 50%;
+    height: 80%;
+}
+
+.rightdiv{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+footer{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials{
+    width: 18px;
+    margin-right: 7px;
+}
+
+footer h3{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.footertext{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-size: 15px;
+}
+
+hr{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+
+.copyright {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #514949;
+    padding-bottom: 97px;
+}
+
+.mail{
+    font-size: 14px;
+}

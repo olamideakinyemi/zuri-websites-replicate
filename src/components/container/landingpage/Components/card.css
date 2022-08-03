@@ -1,0 +1,57 @@
+/* .cards {
+    width: 100%;
+} */
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    height: 511px;
+    margin: auto;
+    padding: 0px 47px 82px 36px;
+}
+
+.training {
+    margin-right: 20px;
+    background-color: #fffafa;
+    text-align: justify-all;
+    /* z-index: 1000; */
+    padding: 80px 47px 82px 36px;
+}
+
+.internship {
+    background-color: #fffafa;
+    text-align: justify-all;
+    padding: 80px 47px 82px 36px;
+}
+
+.talent {
+    margin-left: 20px;
+    background-color: #fffafa;
+    text-align: justify-all;
+    /* z-index: 1000; */
+    padding: 80px 47px 82px 36px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+}
+
+.link {
+    font-size: 16px;
+    line-height: 24px;
+    color: #e7332b;
+    opacity: 0.9;
+}
+
+.image {
+    margin-bottom: 55px;
+}
+
+.card-container {
+    width: 90%;
+    margin: auto;
+}
