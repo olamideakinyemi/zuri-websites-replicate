@@ -76,6 +76,9 @@ p {
     .training{
         margin-right: 0px;
     }
+    .link{
+        font-size: 15.5px;
+    }
 }
 
 @media only screen and (max-width: 1280px) {

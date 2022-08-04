@@ -30,7 +30,7 @@ function Landingpage() {
                     <HeroButton />
                 </div>
             </header>
-            <div className="container">
+            <main>
                 <div className="program-content">
                     <h3>BY ZURI Team</h3>
                     <p className="program-desc">
@@ -50,7 +50,7 @@ function Landingpage() {
                         <Card />
                     </div>
                 </div>
-            </div>
+            </main>
             <footer>
                 <div className="footercontainer">
                     <div className="footerlogo">
