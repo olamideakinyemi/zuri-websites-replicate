@@ -1,7 +1,7 @@
 import "../landingpage/style.css";
 import logo1 from "../landingpage/utils/logo1.svg";
-import HeroButton from "../landingpage/Components/herobutton";
-import Card from "../landingpage/Components/card";
+import HeroButton from "./Components/herobutton";
+import Card from "./Components/card";
 import left from "../landingpage/utils/left_bvmv7q.png";
 import right from "../landingpage/utils/right_yz6hn3.png";
 import facebook from "../landingpage/utils/fb.png";
@@ -54,22 +54,22 @@ function Landingpage() {
             <footer>
                 <div className="footercontainer">
                     <div className="footerlogo">
-                        <img src={logo1} className="App-logo" alt="logo" />
+                        <img src={logo1} className="flogo" alt="logo" />
                     </div>
                     <div>
                         <h3>Links</h3>
                         <div className="footertext text">
-                            <a href="https://flutterwave.com/store/zuriteam">Store</a>
+                            <a className="store" href="https://flutterwave.com/store/zuriteam">Store</a>
                         </div>
                         <div className="text">
                             <a href="https://blog.zuri.team">Blog</a>
                         </div>
                     </div>
-                    <div>
+                    <div className="contact">
                         <h3>Contact</h3>
-                        <p className="footertext text">
+                        <p className="footertext text address">
                             8 Jubliee-CMD Road, Magodo,
-                            <br /> Lagos State
+                            Lagos State
                         </p>
                         <div className=" mail">
                             <a href="mailto:hello@zuri.com">hello@zuri.team</a>

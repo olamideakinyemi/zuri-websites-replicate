@@ -57,8 +57,6 @@ h3 {
     text-align: center;
 }
 
-
-
 .program-desc {
     font-size: 24px;
     line-height: 40px;
@@ -72,7 +70,7 @@ h3 {
     margin-bottom: 48px;
 }
 
-.dotted{
+.dotted {
     position: absolute;
     left: 0;
     right: 0;
@@ -82,50 +80,49 @@ h3 {
     margin-top: -75px;
 }
 
-.cards{
+.cards {
     position: relative;
 }
 
-.left{
+.left {
     width: 60%;
     height: 90%;
 }
 
-.right{
+.right {
     width: 50%;
     height: 80%;
 }
 
-.rightdiv{
+.rightdiv {
     display: flex;
     justify-content: flex-end;
 }
 
-
-.container{
+.container {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 150px;
 }
 
-footer{
+footer {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.footercontainer{
+.footercontainer {
     display: flex;
     justify-content: space-between;
 }
 
-.socials{
+.socials {
     width: 18px;
     margin-right: 7px;
 }
 
-footer h3{
+footer h3 {
     font-size: 16px;
     font-weight: bold;
     line-height: 24px;
@@ -134,20 +131,21 @@ footer h3{
     margin-top: 0px;
 }
 
-.footertext{
+.footertext {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.text{
+.text {
     font-size: 15px;
 }
 
-hr{
+hr {
     margin-top: 90px;
     margin-bottom: 30px;
+    opacity: 0.2;
+    border: 0.7px solid #514949;
 }
-
 
 .copyright {
     text-align: center;
@@ -159,6 +157,95 @@ hr{
     padding-bottom: 97px;
 }
 
-.mail{
+.mail {
     font-size: 14px;
 }
+
+.contact{
+    width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-desc {
+        font-size: 16px;
+        line-height: 24px;
+        color: #514949;
+        opacity: 0.9;
+        width: 95%;
+    }
+    .program-desc {
+        font-size: 24px;
+        line-height: 40px;
+        text-align: center;
+        color: #514949;
+        margin-top: 8px;
+        margin-bottom: 64px;
+    }
+    .container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+    }
+    .dotted {
+        display: none;
+    }
+    .center-logo {
+        padding-top: 120px;
+        margin-bottom: 100px;
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+    }
+    footer {
+        width: 100%;
+        width: 90%;
+    }
+    .footerlogo{
+        margin-bottom: 30px;
+    }
+    .flogo{
+        width: 150px;
+        margin-bottom: 15px;
+    }
+    footer h3{
+        font-size: 24px;
+    }
+    .footercontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .address{
+        font-size: 13px !important;
+    }
+    .contact{
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    footer h3 {
+        text-align: center;
+    }
+    hr{
+        margin-top: 60px;
+        opacity: 0.2;
+    border: 0.7px solid #514949;
+    }
+    .socials{
+        margin-right: 10px;
+    }
+    .store{
+        margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    header{
+    height: 100vh;
+     }
+    }

@@ -38,3 +38,40 @@ button{
     width: 30%;
     margin: auto;
  }
+
+ @media only screen and (max-width: 900px) {
+   .Buttons{
+      display: flex;
+      flex-direction: column;
+      width: 80% !important;
+      margin: auto;
+   }
+   button{
+      font-size: 8px;
+      padding: 10px 20px;
+      font-size: inherit;
+      cursor: pointer;
+  }
+  .btn-1{
+   margin-bottom: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 1280px) {
+   .Buttons{
+      display: flex;
+      width: 38%;
+      margin: auto;
+   }
+   button{
+      font-size: 8px;
+      padding: 10px 20px;
+      font-size: inherit;
+      cursor: pointer;
+  }
+  .btn-1{
+   margin-bottom: 20px;
+  }
+}
+
