@@ -1,7 +1,7 @@
-import "../Components/card.css";
-import training from "../utils/zuri-training-img.svg";
-import internship from "../utils/zuri-internship-img.svg";
-import talent from "../utils/zuri-talent-img.svg";
+import "../../styles/card.css";
+import training from "../../components/utils/zuri-training-img.svg";
+import internship from "../../components/utils/zuri-internship-img.svg";
+import talent from "../../components/utils/zuri-talent-img.svg";
 
 function Card() {
     return (

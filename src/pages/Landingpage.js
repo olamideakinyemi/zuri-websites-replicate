@@ -1,13 +1,13 @@
-import "../landingpage/style.css";
-import logo1 from "../landingpage/utils/logo1.svg";
-import HeroButton from "./Components/herobutton";
-import Card from "./Components/card";
-import left from "../landingpage/utils/left_bvmv7q.png";
-import right from "../landingpage/utils/right_yz6hn3.png";
-import facebook from "../landingpage/utils/fb.png";
-import twitter from "../landingpage/utils/twitter.png";
-import instagram from "../landingpage/utils/IG.png";
-import linkedin from "../landingpage/utils/in.png";
+import "../styles/style.css";
+import logo1 from "../components/utils/logo1.svg";
+import HeroButton from "../pages/Components/herobutton";
+import Card from "../pages/Components/card";
+import left from "../components/utils/left_bvmv7q.png";
+import right from "../components/utils/right_yz6hn3.png";
+import facebook from "../components/utils/fb.png";
+import twitter from "../components/utils/twitter.png";
+import instagram from "../components/utils/IG.png";
+import linkedin from "../components/utils/in.png";
 
 function Landingpage() {
     return (

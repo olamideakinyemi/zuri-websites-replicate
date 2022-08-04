@@ -10,7 +10,7 @@
 
 header {
     background-color: #fffafa;
-    background-image: url(../landingpage/utils/hero-bg.svg);
+    background-image: url(../components/utils/hero-bg.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
