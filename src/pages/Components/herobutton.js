@@ -6,12 +6,12 @@ function herobutton() {
     return (
         <div className="Buttons">
             <div className="">
-                <Link to="../Industry">
+                <Link to="/Industry">
                     <button className="btn-1">I'm new to the Industry</button>
                 </Link>
             </div>
             <div>
-                <Link to="../Experience">
+                <Link to="/Experience">
                     <button className="btn-2">I need industry experience</button>
                 </Link>
             </div>
