@@ -19,6 +19,7 @@ button{
  .btn-1:hover{
     background-color: white;
     color: #E8332B;
+    outline: none;
  }
 
 
@@ -26,6 +27,7 @@ button{
     border: 1px solid #E8332B;
     background-color: white;
     color: #E8332B;
+    outline: none;
  }
 
  .btn-2:hover{
