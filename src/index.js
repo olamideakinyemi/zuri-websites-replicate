@@ -7,19 +7,14 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Industry from './pages/Industry';
-import Experience from './pages/Experience';
+import App from './App';
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <BrowserRouter>
         <React.StrictMode>
-        <Routes>
-      <Route path="/" element={<Landingpage />} />
-      <Route path="industry" element={<Industry />} />
-      <Route path="experience" element={<Experience />} />
-    </Routes>
-
+         <App />
         </React.StrictMode>
     </BrowserRouter>
 );
