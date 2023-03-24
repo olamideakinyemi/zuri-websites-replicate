@@ -27,7 +27,7 @@ function Card() {
                             ready for actual work.
                         </p>
                         <p className="link">
-                            <a href="https://internship.zuri.team/">I want to join the internship &gt;</a>
+                            <a href="/">I want to join the internship &gt;</a>
                         </p>
                     </div>
                     <div className="talent">
@@ -38,7 +38,7 @@ function Card() {
                             suited talent for your company
                         </p>
                         <p className="link">
-                            <a href="https://talent.zuri.team/">I am looking for talent &gt;</a>
+                            <a href="/">I am looking for talent &gt;</a>
                         </p>
                     </div>
                 </div>
